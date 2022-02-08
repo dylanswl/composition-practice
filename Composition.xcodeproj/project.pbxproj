@@ -10,7 +10,7 @@
 		204DC84027B21308009247F0 /* Composition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204DC83627B21308009247F0 /* Composition.framework */; };
 		204DC84527B21308009247F0 /* CompositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204DC84427B21308009247F0 /* CompositionTests.swift */; };
 		204DC84727B21308009247F0 /* Composition.h in Headers */ = {isa = PBXBuildFile; fileRef = 204DC83927B21308009247F0 /* Composition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		204DC85327B21310009247F0 /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204DC85227B21310009247F0 /* Composition.swift */; };
+		204DC85927B21A68009247F0 /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204DC85827B21A68009247F0 /* Composition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 		204DC83F27B21308009247F0 /* CompositionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompositionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		204DC84427B21308009247F0 /* CompositionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionTests.swift; sourceTree = "<group>"; };
 		204DC84627B21308009247F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		204DC85227B21310009247F0 /* Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Composition.swift; path = ../../Composition.swift; sourceTree = "<group>"; };
+		204DC85827B21A68009247F0 /* Composition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Composition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			children = (
 				204DC83927B21308009247F0 /* Composition.h */,
 				204DC83A27B21308009247F0 /* Info.plist */,
-				204DC85227B21310009247F0 /* Composition.swift */,
+				204DC85827B21A68009247F0 /* Composition.swift */,
 			);
 			path = Composition;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				204DC85327B21310009247F0 /* Composition.swift in Sources */,
+				204DC85927B21A68009247F0 /* Composition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
